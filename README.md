@@ -1,13 +1,10 @@
-# OpenVPN de-1 / ipv6-bridge
+# OpenVPN configuration for IPv4 and IPv6 gateway
+With this VPN, you can use your own IPv6 subnet from an Internet
+connection that does not provide IPv6 regularly. It also tunnels the
+entire IPv4 traffic. So you are no longer tracked by your ISP \ o /
 
-This VPN configuration files provides a gateway to don't get tracked by
-your internet provider or if you just want to tunnel all traffic over
-another server. Also it provides a an IPv6 bridge. With this you are
-able to access the internet via IPv6 from a non IPv6 ISP.
-
-For example [Netcup](https://netcup.de) provides a /64 subnet with every
-of their RootServer packages. You can use that to bring your personal
-IPv6 Subnet to your devices.
+For example, You can get your own IPv6 subnet with a [Netcup](https://netcup.de)
+RootServer or at [SixXS](https://www.sixxs.net/main)
 
 # Installation
 To install this setup install the [OpenVPN](https://openvpn.net/)
